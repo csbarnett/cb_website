@@ -1,5 +1,5 @@
 ---
-title: "Lorem Arrested Development"
+title: "Machine Learning the Riffomonas Way"
 subtitle: "How to add panelsets in R Markdown posts."
 excerpt: "Add tabbed sections with code and results."
 date: 2021-05-24
@@ -18,15 +18,14 @@ categories:
 {{< panelset class="greetings" >}}
 {{< panel name="Plot" >}}
 
-```{r plot, echo=FALSE}
-plot(pressure)
-```
+<img src="{{< blogdown/postref >}}index_files/figure-html/plot-1.png" width="672" />
 
 {{< /panel >}}
 {{< panel name="Code" >}}
 
-```{r ref.label='plot', fig.show='hide'}
 
+```r
+plot(pressure)
 ```
 
 {{< /panel >}}
