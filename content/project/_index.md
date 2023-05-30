@@ -1,7 +1,7 @@
 ---
-title: A Project Portfolio To Grow
-description: "Give your projects a place to live online."
-author: "The R Markdown Team @RStudio"
+title: Publications and Presentations
+description: "A selection of publications and presentations from my work in public health and biomedical science"
+author: "Chris Barnett and other referenced contributers"
 show_post_thumbnail: true
 show_author_byline: true
 show_post_date: false
