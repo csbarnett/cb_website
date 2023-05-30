@@ -23,7 +23,7 @@ links:
 
 ![DPH Logo](Header_DPH.jpeg)
 
-## [The State of Alaska Division of Public Health's Section of Epidemiology](https://health.alaska.gov/dph/Epi/Pages/default.aspx) publishes brief white papers with information important to public health in Alaska.
+## [The State of Alaska Division of Public Health's Section of Epidemiology](https://health.alaska.gov/dph/Epi/Pages/default.aspx) publishes brief white papers call *Epidemioloy Bulletins* with information important to public health in Alaska. My colleauges and I published a [Bulletin](http://www.epi.alaska.gov/bulletins/docs/b2022_07.pdf) describing the prevalence and detection efforts of CCHDs in Alaska.
 
 ---
 

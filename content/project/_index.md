@@ -1,7 +1,7 @@
 ---
 title: Publications and Presentations
 description: "A selection of publications and presentations from my work in public health and biomedical science"
-author: "Chris Barnett and other referenced contributers"
+author: "Chris Barnett and other referenced contributors"
 show_post_thumbnail: true
 show_author_byline: true
 show_post_date: false
@@ -10,12 +10,12 @@ layout: list-grid # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar: 
-  title: A Sidebar for Your Projects
+  title: Publications and Presentations
   description: |
-    Projects can be anything!
+    "A selection of publications and presentations from my work in public health and biomedical science"
     Check out the _index.md file in the /project folder 
     to edit this content.
-  author: "The R Markdown Team @RStudio"
+  author: "Chris Barnett and other referenced contributors"
   text_link_label: ""
   text_link_url: ""
   show_sidebar_adunit: false # show ad container
