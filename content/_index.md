@@ -1,17 +1,17 @@
 ---
 title: "Chris Barnett MS, MPH"
-subtitle: "State Epidemiologist @ State of Alaska, Division of Public Health"
-description: "Epidemiologist and program manager with interests in the intersection of data science and public health (and playing outside in Alaska)"
-date: 2019-02-18T12:27:33-06:00
-images:
-  - img/dewmound.JPG
-image_left: true
-text_align_left: false
-show_social_links: true # specify social accounts in site config
-show_action_link: true
+subtitle: State Epidemiologist @ State of Alaska, Division of Public Health
+date: '2019-02-18T12:27:33-06:00'
+description: Epidemiologist and program manager with interests in the intersection
+  of data science and public health (and playing outside in Alaska)
+images: img/dewmound.png
+image_left: yes
+text_align_left: no
+show_social_links: yes
+show_action_link: yes
 action_link: /about
-action_label: "Read More &rarr;"
-action_type: text # text, button
+action_label: Read More &rarr;
+action_type: text
 type: home
 ---
 

@@ -44,7 +44,7 @@ h2 {/* Header 2 */
 
 ---
 
-![](renv.jpg)
+![](https://rstudio.github.io/renv/logo.svg)
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)

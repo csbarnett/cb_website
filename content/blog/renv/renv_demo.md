@@ -44,7 +44,7 @@ h2 {/* Header 2 */
 
 ---
 
-![](renv.jpg)
+![](https://rstudio.github.io/renv/logo.svg)
 
 
 
