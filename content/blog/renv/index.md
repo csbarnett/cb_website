@@ -44,7 +44,7 @@ h2 {/* Header 2 */
 
 ---
 
-![](renv.jpg)
+![](https://rstudio.github.io/renv/logo.svg)
 
 
 
@@ -65,8 +65,8 @@ The *renv* package helps make your code more isolated, portable, and reproducibl
 
 ## Setup
 You can setup the *renv* package immediately during the project creation step, or you can initiate the *renv* package for an existing project with the **init()** function.
+![](https://docs.posit.co/ide/user/ide/guide/environments/r/images/use-renv-with-project.png)
 
-![](Picture2.png)
 
 
 ```r
@@ -75,7 +75,7 @@ You can setup the *renv* package immediately during the project creation step, o
 ```
 
 ## Infrastructure
-![](Picture1.png)
+![](https://docs.posit.co/ide/user/ide/guide/environments/r/images/new-renv-project.png)
 
 The *renv* package creates two essential items in your project directory.
   
