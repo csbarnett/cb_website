@@ -1,8 +1,8 @@
 ---
-title: A Blog That Works
+title: My Blog
 description: |
   This is a space were I share about new, or interesting aspects data science (usually in R) that I think could be helpful for others.
-author: "c.Barnett"
+author: "C.Barnett"
 show_post_thumbnail: true
 show_author_byline: true
 show_post_date: true
