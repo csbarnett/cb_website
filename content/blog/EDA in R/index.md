@@ -106,32 +106,32 @@ glimpse(sample_n(used_cars1, 50))
 ```
 ## Rows: 50
 ## Columns: 26
-## $ id           <dbl> 7313860019, 7314958318, 7309906949, 7313136939, 731675180…
-## $ url          <chr> "https://madison.craigslist.org/ctd/d/sun-prairie-2017-ra…
-## $ region       <chr> "madison", "north jersey", "cincinnati", "little rock", "…
-## $ region_url   <chr> "https://madison.craigslist.org", "https://newjersey.crai…
-## $ price        <dbl> 49998, 19985, 6500, 0, 9991, 28999, 18000, 2000, 19495, 4…
-## $ year         <dbl> 2017, 2017, 2012, 2009, 2015, 2019, 2016, 2003, 2018, 200…
-## $ manufacturer <chr> "ram", "bmw", "volkswagen", NA, "dodge", "dodge", "hyunda…
-## $ model        <chr> "2500 power wagon", "x3", "routan", "09 HONDS ODYSSEY EXL…
-## $ condition    <chr> "excellent", NA, "good", "excellent", NA, NA, NA, NA, NA,…
-## $ cylinders    <chr> "8 cylinders", NA, "6 cylinders", "6 cylinders", NA, NA, …
-## $ fuel         <chr> "gas", "gas", "gas", "gas", "gas", "gas", "gas", "gas", "…
-## $ odometer     <dbl> 41714, 74557, 145200, 149829, NA, 33270, 70449, 175000, 2…
+## $ id           <dbl> 7305664519, 7313596204, 7316445756, 7313438655, 730790940…
+## $ url          <chr> "https://lexington.craigslist.org/ctd/d/lancaster-2012-gm…
+## $ region       <chr> "lexington", "redding", "seattle-tacoma", "raleigh / durh…
+## $ region_url   <chr> "https://lexington.craigslist.org", "https://redding.crai…
+## $ price        <dbl> 19995, 14995, 21990, 49979, 45225, 31990, 7985, 34590, 64…
+## $ year         <dbl> 2012, 2015, 2012, 2018, 2020, 2017, 2003, 2017, 2010, 200…
+## $ manufacturer <chr> "gmc", "mazda", "audi", "ram", "jeep", "bmw", "ford", "to…
+## $ model        <chr> "sierra", "mazda6 i touring", "a7 3.0t quattro prestige",…
+## $ condition    <chr> NA, NA, NA, NA, NA, "good", "excellent", "good", "excelle…
+## $ cylinders    <chr> NA, "4 cylinders", "6 cylinders", NA, NA, NA, "8 cylinder…
+## $ fuel         <chr> "gas", "gas", "gas", "diesel", "gas", "gas", "gas", "gas"…
+## $ odometer     <dbl> 75000, 87156, 86775, 23493, 14833, 19366, 145000, 20097, …
 ## $ title_status <chr> "clean", "clean", "clean", "clean", "clean", "clean", "cl…
-## $ transmission <chr> "automatic", "automatic", "automatic", "automatic", "manu…
-## $ VIN          <chr> "3C6TR5EJ7HG684920", "5UXWX9C57H0D96653", "2C4RVACG4CR391…
-## $ drive        <chr> "4wd", NA, "fwd", NA, NA, "rwd", "fwd", "fwd", "fwd", NA,…
-## $ size         <chr> NA, NA, "full-size", NA, NA, NA, NA, NA, "mid-size", NA, …
-## $ type         <chr> NA, "other", "van", NA, "sedan", "sedan", "SUV", "hatchba…
-## $ paint_color  <chr> "red", "white", "white", "silver", NA, "grey", "white", "…
-## $ image_url    <chr> "https://images.craigslist.org/00H0H_iDCxe5UySkez_0CI0t2_…
-## $ description  <chr> "Oliver Motors is EXCITED to offer this 2017 Ram 2500 POW…
+## $ transmission <chr> "automatic", "manual", "automatic", "automatic", "automat…
+## $ VIN          <chr> NA, "JM1GJ1V56F1218291", "WAU2GAFC0CN118291", "3C6UR5CL1J…
+## $ drive        <chr> NA, "fwd", "4wd", NA, "4wd", "rwd", "rwd", "4wd", "fwd", …
+## $ size         <chr> NA, NA, NA, NA, NA, NA, "full-size", NA, NA, NA, NA, NA, …
+## $ type         <chr> NA, "sedan", NA, NA, "pickup", "sedan", "truck", "pickup"…
+## $ paint_color  <chr> NA, "silver", NA, NA, NA, "red", "silver", NA, "silver", …
+## $ image_url    <chr> "https://images.craigslist.org/00E0E_lGMZs9Pe1Maz_0CI0m8_…
+## $ description  <chr> "**SOLD**  This 2012 GMC 1500 has been SOLD but you can v…
 ## $ county       <lgl> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…
-## $ state        <chr> "wi", "nj", "oh", "ar", "wa", "wa", "ca", "wa", "fl", "ar…
-## $ lat          <dbl> 43.18330, 40.92334, 39.43529, 34.86745, 47.47109, 48.1180…
-## $ long         <dbl> -89.21614, -74.14336, -83.82955, -92.19752, -122.33378, -…
-## $ posting_date <dttm> 2021-04-28 16:04:34, 2021-04-30 19:10:10, 2021-04-20 17:…
+## $ state        <chr> "ky", "ca", "wa", "nc", "mo", "sc", "ia", "md", "ca", "ok…
+## $ lat          <dbl> 37.61014, 40.57881, 47.19470, 36.22450, 38.38262, 34.8300…
+## $ long         <dbl> -84.57898, -122.38753, -122.48371, -79.89010, -93.77344, …
+## $ posting_date <dttm> 2021-04-12 16:08:53, 2021-04-27 23:00:26, 2021-05-03 21:…
 ```
 
 The random sample within the glimpse() function makes it much easier to see that many character variables might work better as factor variables.
@@ -165,7 +165,7 @@ introduce(used_cars2)
 plot_missing(used_cars2)
 ```
 
-<img src="/blog/EDA in R/eda_in_R_files/figure-html/unnamed-chunk-4-1.png" width="1440" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-4-1.png" width="1440" />
 With these two plots, we see that most of our variables are discrete (categorical), and significant missing values exist in many columns, including one, the completely empty country variable.
 
 Another helpful package to understand the extent of missing data in your data set is the [naniar package](https://cran.r-project.org/web/packages/naniar/vignettes/getting-started-w-naniar.html). The predominant visualization package in R, [ggplot2](https://ggplot2.tidyverse.org/) often excludes missing values. The *naniar package* works with *ggplot2* to specifically visualize missing values in many interesting ways, one of which we'll explore here.
@@ -179,7 +179,7 @@ used_cars2 %>%
 gg_miss_upset()
 ```
 
-<img src="/blog/EDA in R/eda_in_R_files/figure-html/unnamed-chunk-5-1.png" width="1440" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-5-1.png" width="1440" />
 
 These groups are mutually exclusive (no overlap of missing values), and we can see that the largest group with missing values is the VIN variable. This differs from our previous plot showing the percent of missing observations per variable, where size (71.77%) showed the highest proportion of missing data. However, our **gg_miss_upset()** plot is consistent with our **plot_missing()** graph because the following nine groups in our upset plot all include size as a missing variable. Perhaps the most interesting finding from this plot is that 36,012 rows are missing all of these variables with many combinations missing more than one variable.
 
@@ -303,7 +303,7 @@ plot_bar(used_cars3 %>%
             select(-region, -model), maxcat = 51, nrow = 1)
 ```
 
-<img src="/blog/EDA in R/eda_in_R_files/figure-html/unnamed-chunk-8-1.png" width="1440" /><img src="/blog/EDA in R/eda_in_R_files/figure-html/unnamed-chunk-8-2.png" width="1440" /><img src="/blog/EDA in R/eda_in_R_files/figure-html/unnamed-chunk-8-3.png" width="1440" /><img src="/blog/EDA in R/eda_in_R_files/figure-html/unnamed-chunk-8-4.png" width="1440" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-8-1.png" width="1440" /><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-8-2.png" width="1440" /><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-8-3.png" width="1440" /><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-8-4.png" width="1440" />
 As we look over all these plots, we must ask ourselves if these distributions make sense. Having some domain knowledge is helpful, but keeping in mind the purpose of the data is critical. Often data is not collected and curated with your specific project in mind. Understanding the purpose and the incentives of those creating the data is necessary to understand the data itself. For example, the bar plots of categorical variables "*size*," "*drive*," and "*cylinders*" display that the most common categories for each are "full-size," "4wd," and "6 cylinders" (they also show a significant amount of missing data). Should we believe that the most common vehicles in this data are full-size, 6-cylinder four-wheel drive cars, or is there reporting bias within these variables because advertisers feel these attributes add value to the car they are trying to sell? These questions will be even more important when we decide how to address the missingness in these variables. 
 
 ### Continuous variables
@@ -336,7 +336,7 @@ used_cars3 %>%
 plot_histogram()
 ```
 
-<img src="/blog/EDA in R/eda_in_R_files/figure-html/unnamed-chunk-9-1.png" width="1440" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-9-1.png" width="1440" />
 
 ```r
 used_cars3 %>%
@@ -344,7 +344,7 @@ used_cars3 %>%
 plot_density()
 ```
 
-<img src="/blog/EDA in R/eda_in_R_files/figure-html/unnamed-chunk-9-2.png" width="1440" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-9-2.png" width="1440" />
 Hmm... Both the odometer and price seem to contain some severe outliers that we are going to have to investigate further. From the looks of our histogram above, there are many cars with a price of zero dollars and some vehicles with a suspiciously expensive price listed.
 
 
@@ -455,7 +455,7 @@ ggplot(data = used_cars4, mapping = aes(x = condition,
   geom_boxplot()
 ```
 
-<img src="/blog/EDA in R/eda_in_R_files/figure-html/unnamed-chunk-13-1.png" width="1440" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-13-1.png" width="1440" />
 This boxplot isn't much to look at, and that limits what we can take away from the data. Let us expand on this boxplot to see if we can make something more useful. The things we will change from the first boxplot are
 
 - Flip the x and y axes.
@@ -483,7 +483,7 @@ ggplot(data = used_cars4, mapping = aes(y = fct_reorder(condition, desc(price)),
   theme_bw()
 ```
 
-<img src="/blog/EDA in R/eda_in_R_files/figure-html/unnamed-chunk-14-1.png" width="1440" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-14-1.png" width="1440" />
 This boxplot obviously looks much different. The color helps convey that these are distinct groups of data. The log scale allows us to compare differences between these groups, and the ordered x-axis, along with the increased plot size and descriptive axis labels, makes this much easier to digest. Lastly, I added a **geom_quasirandom()** layer from the [*ggbeeswarm package*](https://cran.r-project.org/web/packages/ggbeeswarm/index.html). The **geom_quasirandom()** layer is usually better with data that has a smaller number of observations (n < 500). Still, I sometimes take a random sample for larger data to understand each category's distribution and the relative number of observations within each group. The ordered x-axis and the increased plot and descriptive axis labels make this much easier to digest.
 
 ### Two Continues Variables
@@ -501,7 +501,7 @@ used_cars4 %>% sample_frac(size = 0.05) %>%
   theme_bw()
 ```
 
-<img src="/blog/EDA in R/eda_in_R_files/figure-html/unnamed-chunk-15-1.png" width="1440" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-15-1.png" width="1440" />
 From the plot above, we can see a gradual decline in car price as the number of miles on the odometer increase.
 
 ### Two Categorical Variables
@@ -518,7 +518,7 @@ used_cars4 %>%
                            na.rm = TRUE))
 ```
 
-<img src="/blog/EDA in R/eda_in_R_files/figure-html/unnamed-chunk-16-1.png" width="1440" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-16-1.png" width="1440" />
 We can see from the plot above that for the top represented manufacturers in this data set, the most common car colors for all manufacturers are white, black, silver, red, blue, and grey.
 
 ## Context-Specific EDA
@@ -548,7 +548,7 @@ used_cars4 %>%
   ggtitle("The Average Car Asking Price by Manufacturer and the Number of Years Old")
 ```
 
-<img src="/blog/EDA in R/eda_in_R_files/figure-html/unnamed-chunk-17-1.png" width="1440" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-17-1.png" width="1440" />
 In the plot above, we have taken the ten most commonly listed manufacturers in the data set and plotted their price distribution. We can see that Honda and *Nissan* cars have the smallest pricing variation. Meanwhile, manufacturers like *Ford*, *GMC*, and *Cherolet* have the most significant variation in listing prices.
 
 We also don't have an obvious way to see how price changes over time because we only have one year (2021) of data. However, we do have the year each car was manufactured!
@@ -598,7 +598,7 @@ used_cars4 %>%
   ggtitle("The Average Car Asking Price by Manufacturer and the Number of Years Old")
 ```
 
-<img src="/blog/EDA in R/eda_in_R_files/figure-html/unnamed-chunk-18-1.png" width="1440" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-18-1.png" width="1440" />
 In the graph above, we have plotted the average yearly car price in this data set by the age of the vehicle (in years), stratified by the 10 most frequently represented manufacturers. From this plot, we can see a spike in asking price for Toyota's from the early 90s and a relatively high (and steady overtime) asking price for Dodge Ram vehicles until they reach ~20 years old. 
 
 Next, it may be interesting to investigate geographic differences since we have data from all 50 states. To do this, we will use box plots again to display the distribution of car prices in each state.
@@ -611,7 +611,7 @@ ggplot(data = used_cars4, aes(x = price, y =  fct_reorder(state, price))) +
   labs(y = NULL, x = "Price of Car in Dollars ($)") 
 ```
 
-<img src="/blog/EDA in R/eda_in_R_files/figure-html/unnamed-chunk-19-1.png" width="1440" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-19-1.png" width="1440" />
 Here we see the price distribution for all cars stratified by all fifty states. Interestingly, West Virginia has the highest median listing price, and Delaware has the lowest. However, this level of stratification may be too much to make valuable inferences. Let's see if we can find a more appropriate geographic stratification by adding to this data set.
 
 Fortunately, R has inherent data sets that include information on all 50 states in the U.S. We can join these U.S states data sets with our Craigslist data set with the state abbreviation variables that exist in both. We will also do some feature engineering and create a new category within the country region variable because it seems inaccurate to classify Alaska and Hawaii simply *"West."*
@@ -641,7 +641,7 @@ ggplot(data = used_cars5, aes(x = price, y =  fct_reorder(country_region, price)
   labs(y = NULL, x = "Price of Car in Dollars ($)") 
 ```
 
-<img src="/blog/EDA in R/eda_in_R_files/figure-html/unnamed-chunk-21-1.png" width="1440" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-21-1.png" width="1440" />
 The plot above shows that the lowest median listed vehicle price is in the Northeast region. In addition, our decision to create a new category for Alaska and Hawaii also seems validated, as these states have the highest listing price.
 
 
