@@ -68,7 +68,7 @@ The code above doesn't work because it is missing the **data-external="1"** HTML
 ```
 
 
-However, as is often the case with R, there is another way to embed video in your Markdown documents that seems to get around our Pandoc issues. You can also use the "*vembedr" package* to easily embed videos in code chunks using their URL, or a file path on your machine.
+However, as is often the case with R, there is more than one solution. Using the *vembedr package* is another way to embed videos in your Markdown documents that get around our Pandoc issues to easily embed videos in code chunks using their URL or a file path on your machine. The *vembedr package* includes an **enbed_url() function** that accepts a URL or file path as an argument.
 
 ```{r vembedr}
 library(vembedr)
