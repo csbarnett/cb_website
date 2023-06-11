@@ -3,7 +3,7 @@ title: "Introduction to the purrr package"
 author: "Chris Barnett"
 date: 2022-11-15
 subtitle: ""
-excerpt: "Working with functions and vectors is mandatory for almost any programming language and working with data in R is no exception. The purrr package is the functional programming workhorse of R packages, making working with functions, list and vectors succinct and easier to read."
+excerpt: "Working with functions and vectors is mandatory for almost any programming language, and coding in R is no exception. Purrr is the functional programming workhorse of R packages. Purrr makes looping functions over lists or vectors concise and easy to read."
 output:
   html_document:
     toc: yes
@@ -44,17 +44,17 @@ h2 {/* Header 2 */
 ---
 
 ![](https://purrr.tidyverse.org/logo.png)
-# Introduction
+## Introduction
 
-The best resource for the purrr package is likely the [Iteration chapter](https://r4ds.had.co.nz/iteration.html#the-map-functions) in R for Data Science by Garrett Grolemund and Hadley Wickham. Hadley Wickham is one of the authors of the purrr package and he spends a good deal of the chapter clearly explaining how it works. It is definitely recommended further reading. And for those of us in public health there is also a chapter on purrr in [R for Epidemiology](https://www.r4epi.com/using-the-purrr-package.html).
+The best resource for the *purrr* package is likely the [Iteration chapter](https://r4ds.had.co.nz/iteration.html#the-map-functions) in R for Data Science by Garrett Grolemund and Hadley Wickham. Hadley Wickham is one of the authors of the *purrr* package and he spends a good deal of the chapter clearly explaining how it works. It is recommended further reading. And for those of us in public health, there is also a chapter on *purrr* in [R for Epidemiology](https://www.r4epi.com/using-the-purrr-package.html).
 
-The purpose of this markdown document is to provide a short introduction to purrr, focusing on just a handful of functions.
+The purpose of this markdown document is to provide a short introduction to *purrr*, focusing on just a handful of functions.
 
-## What is the purrr package used for?
-Answer: The process of looping over a vector, applying a function or change to each element, and saving the results is common in R programming. The purrr package provide tools accomplish this that are more succinct and easier to read.
+## What is the *purrr* package used for?
+Answer: The process of looping over a vector, applying a function or change to each element, and saving the results is common in R programming. The *purrr* package provides user-friendly functions to accomplish this that are concise and easier to read.
 
-## Can I just use base R?
-Answer: Yes. All of this is absolutely possible with base R, using for() loops or the “apply” functions, such as lapply(), and by()
+## Can't I just use base R?
+Answer: Yes. All of this is possible with base R, using **for()** loops or one of the various **apply()** functions, such as **lapply()**, and **by().**
 
 ```{r,echo=FALSE,warning=FALSE,comment=NA,message=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -80,11 +80,11 @@ map(public_health_regions,
        function(x){str_detect(string = x, pattern = "South")}
        )
 ```
-The code and output of the map() and lapply functions are nearly identical. However, the purrr package comes with a more well defined and **consistent** syntax and a ease of use over base R looping functions. The user interface of the “apply”" functions is not as consistent and all previous looping functions pre-date the pipe %>% operator. 
+The code and output of the **map()** and **lapply()** functions are nearly identical. However, the *purrr* package has a more well-defined and consistent syntax and ease of use over base R looping functions. The syntax of the *apply* functions is [inconsistent](http://adv-r.had.co.nz/Functionals.html), which makes using them from memory difficult. In addition, *purrr's* looping functions integrate seamlessly with the pipe *%>%* operator. 
 
 
-## What else can the purrr package do?
-In addition, the purrr package includes a host of useful functions for looping over vectors and list. The [purrr cheatsheet](https://github.com/rstudio/cheatsheets/blob/main/purrr.pdf) is particully helpful.
+## What else can the *purrr* package do?
+In addition, the *purrr* package includes a host of valuable functions for looping over vectors and lists. The [purrr cheatsheet](https://github.com/rstudio/cheatsheets/blob/main/purrr.pdf) is particularly helpful.
 ```{r}
 # Filtering on list items that contain the string pattern "South"
 # Keep() function selects list items that pass a logical test
