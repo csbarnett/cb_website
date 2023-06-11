@@ -11,7 +11,7 @@ layout: split-right
 submit_button_label: Send Message
 show_social_links: yes
 show_poweredby_formspree: yes
-formspree_form_id: https://formspree.io/f/mjvdqnnd
+formspree_form_id: mjvdqnnd
 ---
 
 ** Contact page don't contain a body, just the front matter above.
