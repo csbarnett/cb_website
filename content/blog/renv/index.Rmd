@@ -104,7 +104,7 @@ You can see which packages are currently installed with the **status()** functio
 
 Add installed packages versions to your project lockfile with the **snapshot()** function
 ```{r}
-# renv::snaphot()
+# renv::snapshot()
 ```
 
 The *renv* function snapshot() will examine your project’s R files to determine which packages you are using in your project. Then, it will include only those packages (alongside their recursive dependencies) in the lockfile. The *renv* package achieves this by scanning your code for calls to **library()** or **require()**.
