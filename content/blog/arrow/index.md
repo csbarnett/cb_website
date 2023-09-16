@@ -2,7 +2,7 @@
 title: "Working With Large Data in R With Apache Arrow and DuckDB"
 author: "Chris Barnett"
 date: "2023-08-31"
-excerpt: Some times we have data files that are larger than R can store in memory. Apache Arrow and DuckDB allow the user to manipulate and query these files while they remain on disk, much like working with an SQL database.
+excerpt: Sometimes we have data files that are larger than R can store in memory. Apache Arrow and DuckDB allow the user to manipulate and query these files while they remain on disk, much like working with an SQL database.
 ---
 
 
@@ -10,7 +10,7 @@ excerpt: Some times we have data files that are larger than R can store in memor
 
 
 ## TLDR
-Some times we have data files that are larger than R can store in memory. Apache Arrow and DuckDB allow the user to manipulate and query these files while they remain on disk, much like working with an SQL database.
+Sometimes we have data files that are larger than R can store in memory. Apache Arrow and DuckDB allow the user to manipulate and query these files while they remain on disk, much like working with an SQL database.
 
 ## Environment
 
